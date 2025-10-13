@@ -1,0 +1,12 @@
+These images are the frames from a soccer video clip, based on your understanding of the soccer rules, determine whether there is a foul in this video clip, if there is a foul, What card would you give? What punishment would you give? Would you give an advantage to the fouled team? Explain your decision, limit your explanation in two sentences, be as concise as possible, and output your result using below format
+
+{
+decision: Foul/No Foul,
+explanation: The rationle behind this judgment,
+card: No Card/Yellow/Red,
+explanation: The rationle behind this judgment,
+punishment:  No Punishment/Indirect Free Kick/Free Kick/Drop Ball/Penalty Kick,
+explanation: The rationle behind this judgment,
+advantage: Yes/No,
+explanation: The rationle behind this judgment,
+}
