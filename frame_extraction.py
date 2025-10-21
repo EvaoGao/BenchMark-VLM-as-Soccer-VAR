@@ -3,9 +3,12 @@ import os
 import math
 import requests
 import tempfile
+import shutil
 
-def extract_frames_from_video(video_url, output_dir, frames_per_second=5):
+def extract_frames_from_video(video_url, output_dir="frames_output", frames_per_second=20):
 
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
     os.makedirs(output_dir, exist_ok=True)
 
     temp_video = tempfile.NamedTemporaryFile(delete=False, suffix=".mp4")

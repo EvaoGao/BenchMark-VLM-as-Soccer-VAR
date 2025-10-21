@@ -1,0 +1,202 @@
+{
+    "Test/action_3": {
+        "foul": true,
+        "card": "Yellow",
+        "advantage": false,
+        "punishment": "FK",
+        "foul_explanation": "Chelsea player 21 made contact with WBA player 26's face with his arm after the ball was played, causing him to fall to the ground. This constitutes a direct free kick offense.",
+        "card_explanation": "The contact was a reckless use of the arm to an opponent's face, deemed unsporting behavior rather than violent conduct or excessive force.",
+        "advantage_explanation": "The fouled player immediately went to ground holding his face, clearly indicating an injury or inability to continue the play, so no attacking advantage was apparent.",
+        "punishment_explanation": "The foul occurred in midfield, outside the penalty area, and is a direct free kick offense according to the Laws of the Game.",
+        "correctness": [
+            1,
+            0,
+            1
+        ],
+        "scores": [
+            0.55,
+            0.47,
+            0.55
+        ]
+    },
+    "Test/action_4": {
+        "foul": true,
+        "card": "Yellow",
+        "advantage": false,
+        "punishment": "FK",
+        "foul_explanation": "The player in the black jersey (Pedro) clearly kicked his opponent's leg without making contact with the ball, causing the opponent to fall.",
+        "card_explanation": "The foul was careless, showing a lack of attention or consideration when making contact with the opponent.",
+        "advantage_explanation": "The fouled player lost possession and fell, eliminating any immediate clear attacking opportunity for his team to benefit from an advantage.",
+        "punishment_explanation": "The foul was a direct free-kick offense committed outside the penalty area.",
+        "correctness": [
+            1,
+            0,
+            1
+        ],
+        "scores": [
+            0.46,
+            0.54,
+            0.61
+        ]
+    },
+    "Test/action_5": {
+        "foul": true,
+        "card": "Yellow",
+        "advantage": false,
+        "punishment": "FK",
+        "foul_explanation": "Player #25 trips Player #14 from behind by making contact with his planted leg, causing him to fall. This action is against the Laws of the Game.",
+        "card_explanation": "The trip from behind is considered a reckless challenge, as it shows disregard for the danger to the opponent's planted leg, warranting a caution.",
+        "advantage_explanation": "The fouled player is down on the ground, and the fouling team gains possession immediately after the foul, preventing any advantage for the fouled team.",
+        "punishment_explanation": "Tripping an opponent is an offense for which a direct free kick is awarded. The foul occurred in the general midfield area.",
+        "correctness": [
+            0,
+            0,
+            1
+        ],
+        "scores": [
+            0.38,
+            0.32,
+            0.46
+        ]
+    },
+    "Test/action_9": {
+        "foul": false,
+        "card": "No card",
+        "advantage": true,
+        "punishment": "None",
+        "foul_explanation": "A foul occurred (trip by Chelsea #26 on WBA #31) but the referee played advantage, which resulted in a goal.",
+        "card_explanation": "The contact was not severe or reckless enough to warrant a card after a goal was scored from the advantage.",
+        "advantage_explanation": "The referee allowed play to continue after the foul, leading directly to a goal for the fouled team.",
+        "punishment_explanation": "The goal scored immediately after the advantage nullifies the need for a free-kick punishment for the foul.",
+        "correctness": [
+            1,
+            1,
+            0
+        ],
+        "scores": [
+            0.61,
+            0.43,
+            0.79
+        ]
+    },
+    "Test/action_12": {
+        "foul": true,
+        "card": "Yellow",
+        "advantage": false,
+        "punishment": "FK",
+        "foul_explanation": "The defender stepped on the opponent's Achilles from behind while challenging for the ball, causing him to fall.",
+        "card_explanation": "The foul was reckless, as the defender made contact with the opponent's foot/Achilles from behind without clearly playing the ball, endangering the opponent.",
+        "advantage_explanation": "The fouled player immediately fell and appeared to be in pain, with no clear attacking advantage for his team to be gained by continuing play.",
+        "punishment_explanation": "A direct free kick is awarded for a foul involving tripping or impeding an opponent in a reckless manner, occurring in the attacking half outside the penalty area.",
+        "correctness": [
+            1,
+            1,
+            1
+        ],
+        "scores": [
+            0.42,
+            0.55,
+            0.36
+        ]
+    },
+    "Test/action_13": {
+        "foul": true,
+        "card": "Yellow",
+        "advantage": false,
+        "punishment": "PK",
+        "foul_explanation": "The defender clearly trips the attacker from behind while challenging for the ball. The contact is well within the penalty area.",
+        "card_explanation": "The defender denied an obvious goal-scoring opportunity (DOGSO) through a challenge for the ball inside the penalty area, which results in a yellow card according to Law 12.",
+        "advantage_explanation": "No advantage was played as the foul immediately halted a clear attacking opportunity, resulting in a penalty kick.",
+        "punishment_explanation": "A direct free kick offence (tripping) was committed by the defending team inside their own penalty area.",
+        "correctness": [
+            1,
+            1,
+            1
+        ],
+        "scores": [
+            0.5,
+            0.57,
+            0.49
+        ]
+    },
+    "Test/action_15": {
+        "foul": true,
+        "card": "Yellow",
+        "advantage": false,
+        "punishment": "FK",
+        "foul_explanation": "The Southampton player tripped the Chelsea player with a late slide tackle, making contact with his supporting leg after the ball was played.",
+        "card_explanation": "The challenge was careless and reckless, impeding the opponent's progress and stopping a promising attack.",
+        "advantage_explanation": "The fouled player immediately fell and the attacking momentum was stopped, with no clear advantage for the fouled team to continue play.",
+        "punishment_explanation": "The foul was a direct free-kick offense committed on the field of play, outside the penalty area.",
+        "correctness": [
+            1,
+            0,
+            1
+        ],
+        "scores": [
+            0.51,
+            0.49,
+            0.63
+        ]
+    },
+    "Test/action_17": {
+        "foul": true,
+        "card": "Yellow",
+        "advantage": false,
+        "punishment": "FK",
+        "foul_explanation": "The blue player (#2) clearly pushed the red/white player (#12) in the back with his arm, causing him to fall and preventing him from playing the ball.",
+        "card_explanation": "The push was a reckless action to impede an opponent, falling under unsporting behavior, but not serious foul play or denial of an obvious goal-scoring opportunity.",
+        "advantage_explanation": "The fouled player was brought to the ground and lost possession, and no immediate attacking opportunity existed for the fouled team to play on.",
+        "punishment_explanation": "A direct free kick offense (pushing) occurred outside the penalty area, near the corner flag.",
+        "correctness": [
+            1,
+            0,
+            1
+        ],
+        "scores": [
+            0.39,
+            0.35,
+            0.6
+        ]
+    },
+    "Test/action_18": {
+        "foul": true,
+        "card": "No card",
+        "advantage": false,
+        "punishment": "FK",
+        "foul_explanation": "The Chelsea player (24) used his arm to hold and pull down the Southampton player (19), impeding his progress with the ball.",
+        "card_explanation": "The foul was not reckless, excessively forceful, or a clear denial of a promising attack, hence no card is warranted.",
+        "advantage_explanation": "The fouled player lost possession and fell to the ground, eliminating any immediate advantage for his team.",
+        "punishment_explanation": "The foul (holding an opponent) occurred outside the penalty area, resulting in a direct free kick for the opposing team.",
+        "correctness": [
+            1,
+            1,
+            1
+        ],
+        "scores": [
+            0.37,
+            0.63,
+            0.66
+        ]
+    },
+    "Test/action_19": {
+        "foul": true,
+        "card": "Yellow",
+        "advantage": false,
+        "punishment": "FK",
+        "foul_explanation": "The red and white striped player (number 47) makes contact with and trips the blue player (number 8) from behind after the ball has been played, causing him to fall.",
+        "card_explanation": "The challenge is reckless, making contact with the opponent's legs without playing the ball, and trips the player.",
+        "advantage_explanation": "The fouled player goes to ground, disrupting the attacking play and indicating no immediate advantage would materialize from continuing play.",
+        "punishment_explanation": "The foul occurred outside the penalty area and constitutes a direct free kick offense (tripping or challenging recklessly).",
+        "correctness": [
+            1,
+            0,
+            1
+        ],
+        "scores": [
+            0.405,
+            0.43500000000000005,
+            0.56
+        ]
+    }
+}
