@@ -5,8 +5,9 @@ import frame_extraction
 import os
 
 valid_extensions = ('jpg', 'jpeg', 'png', 'gif', 'bmp')
-api_key = "AIzaSyBA0Ba58PtBLKFMhTimoYfpRV4RzJi28ig"
+#api_key = "AIzaSyBA0Ba58PtBLKFMhTimoYfpRV4RzJi28ig"
 
+api_key = "AIzaSyBulwLbmVUSKPUro_klSuy5kGpBYxYLDFU"
 MIME = {
     "jpg":  "image/jpeg",
     "jpeg": "image/jpeg",
@@ -37,10 +38,12 @@ def load_parts(folder_dir: str):
     return parts_list
 
 def gemini_call(URL1: str, URL2: str, prompt_path: str):
-    frame_extraction.extract_frames_from_video(URL1,"frames_live")
+    #frame_extraction.extract_frames_from_video(URL1,"frames_live")
     frame_extraction.extract_frames_from_video(URL2,"frames_replay")
-    parts = load_parts("frames_live") + load_parts("frames_replay")
-    
+    #frame_extraction.extract_frames_center(URL2,"frames_replay")
+    #parts = load_parts("frames_live") + load_parts("frames_replay")
+    parts = load_parts("frames_replay")
+    #parts = load_parts("frames_live")
     with open(prompt_path, "r", encoding="utf-8") as f:
         prompt = f.read()
 
@@ -52,10 +55,25 @@ def gemini_call(URL1: str, URL2: str, prompt_path: str):
 
     return response.text
 
-if __name__ == "__main__":
-    response = gemini_call(
-        "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_3/clip_0.mp4",
-        "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_3/clip_1.mp4",
-        "C:/Users/Evang/Desktop/Work/DS440/codes/prompt.txt"
+def semantic_judge_call(statement1:str, statement2:str, prompt_path:str):
+    with open(prompt_path, "r", encoding="utf-8") as f:
+        prompt = f.read()
+
+    full_prompt = f"{prompt}\nStatement 1: {statement1}\nStatement 2: {statement2}"
+
+    client = genai.Client(api_key = api_key)
+    response = client.models.generate_content(
+        model='gemini-2.5-flash-lite',
+        contents=[full_prompt]
     )
-    print(response)
+
+    return float(response.text)
+
+
+#if __name__ == "__main__":
+#    response = gemini_call(
+#        "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_3/clip_0.mp4",
+#       "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_3/clip_1.mp4",
+#        "C:/Users/Evang/Desktop/Work/DS440/codes/prompt.txt"
+#    )
+#    print(response)

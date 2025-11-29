@@ -1,0 +1,1330 @@
+{
+    "Test/action_3": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_3/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_3/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender hit the attacker's shin with moderate intensity."
+        ],
+        "card_explanation": [
+            "The defender hits his opponent with medium intensity in the battle for the ball on the shin. Although the intensity was medium, there was no intention to harm the opponent and the risk of injury for the fouled player was low. Furthermore, the defender attempted to play the ball, thus no card is the right decision."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_4": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_4/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_4/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender hits the attacker with medium intensity on the leg."
+        ],
+        "card_explanation": [
+            "The defender hits his opponent with moderate intensity in the fight for the ball on the leg. Although the intensity was moderate, there was no intention to injure the opponent and the risk of injury for the fouled player was low. Furthermore, the defender tried to play the ball and therefore no card is the right decision."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_5": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_5/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_5/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul since the defender played the ball first fairly."
+        ],
+        "card_explanation": [
+            "No foul as the defender played the ball first in a fair manner."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_9": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_9/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_9/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul as the attacker leaves the ball and simply runs in front of the defender. The defender has no other choice but to run into the attacker from behind. Since the attacker only sought the foul to get a free kick, the referee should let play continue."
+        ],
+        "card_explanation": [
+            "No foul as the attacker leaves the ball and simply runs in front of the defender. The defender has no other choice but to run into the attacker from behind. Since the attacker was only looking for the foul to get a free kick, the referee should let play continue."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_12": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_12/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_12/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Yellow"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The attacker is using his arm illegally to gain an advantage in the aerial duel and hits the defender with his elbow in the face."
+        ],
+        "card_explanation": [
+            "The attacker uses his arm to gain an illegal advantage. He hits his opponent with medium intensity using his elbow to the face. Such contact is considered reckless play. A yellow card is appropriate."
+        ],
+        "advantage_explanation": [
+            "No, in case of possible head injuries, the referee should always stop the game immediately."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_13": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_13/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_13/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true,
+            true
+        ],
+        "card": [
+            "Yellow"
+        ],
+        "advantage": [
+            false,
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender has no intention of passing the ball, but is only holding onto the attacker's arm.",
+            "Yes, foul. Stop."
+        ],
+        "card_explanation": [
+            "The referee should show the defender a yellow card, as he has no respect for the game (holding arm). He has no intention of playing the ball, but rather intends to commit a foul. Furthermore, the defender also stopped a promising attack."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was not in possession of the ball after the foul.",
+            "No. No ball possession."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_15": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_15/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_15/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender made medium intensity contact with the attacker's thigh."
+        ],
+        "card_explanation": [
+            "The defender accidentally hits his opponent with medium intensity in the fight for the ball at the thigh. Although the intensity was medium, there was no intention to harm the opponent. Furthermore, the defender tried to play the ball and therefore no card is the right decision."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_17": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_17/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_17/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender arrives too late and pushes the attacker with medium intensity in the back."
+        ],
+        "card_explanation": [
+            "No card as the defender only pushed the attacker with moderate intensity in the back, without any risk of injury."
+        ],
+        "advantage_explanation": [
+            "No, because the ball went out of bounds after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_18": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_18/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_18/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender is holding the attacker by the shoulder and the jersey."
+        ],
+        "card_explanation": [
+            "No card as the defender held the attacker by the shoulder and jersey during the battle for the ball, without it being unsportsmanlike and without any risk of injury."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_19": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_19/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_19/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true,
+            true
+        ],
+        "card": [
+            "No card",
+            "No card"
+        ],
+        "advantage": [
+            false,
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender is holding onto the attacker and also hits him with his leg on the thigh.",
+            "Yes, it is a foul, because the defender touches the attacker's knee with his leg, who is about to dribble him, and this just in front of the penalty area."
+        ],
+        "card_explanation": [
+            "The defender makes contact with his opponent with low intensity in the fight for the ball on the thigh. Since the intensity was low, there was no intention to harm the opponent, the risk of injury for the fouled player was low, and he tried to play the ball, no card is the right decision.",
+            "No card, as there are still plenty of defensive players in the penalty area."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul.",
+            "No, he was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_20": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_20/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_20/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, as all players are going into the aerial duel in accordance with the rules, without using their elbows or arms."
+        ],
+        "card_explanation": [
+            "No foul, as all players are going into the aerial duel in accordance with the rules, without using their elbows or arms."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_22": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_22/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_22/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Yellow"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender hits the attacker on the leg with medium intensity with this slide tackle."
+        ],
+        "card_explanation": [
+            "The defender's tackling was done with moderate intensity while he attempted to play the ball. However, the speed of the tackle shows a lack of consideration for the well-being of his opponent, and therefore such an action should be considered reckless. The player should be punished with a yellow card."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_28": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_28/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_28/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, as the defender was the first one to play the ball."
+        ],
+        "card_explanation": [
+            "No foul since the defender played the ball first."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_31": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_31/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_31/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender made medium intensity contact with the attacker's leg."
+        ],
+        "card_explanation": [
+            "The defender meets his opponent with medium intensity in the battle for the ball at the leg. Although the intensity was medium, there was no intention to injure the opponent and the risk of injury for the fouled player was low. Furthermore, the defender tried to play the ball, therefore no card is the right decision."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was not in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_32": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_32/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_32/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender made slight contact with the attacker's foot from behind."
+        ],
+        "card_explanation": [
+            "The defender makes contact with his opponent with low intensity in the fight for the ball at the back of the foot. Since the intensity was low, there was no intention to harm the opponent, the risk of injury for the fouled player was low, and he tried to play the ball, no card is the right decision."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_34": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_34/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_34/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true,
+            true,
+            true
+        ],
+        "card": [
+            "Yellow",
+            "Yellow",
+            "Yellow"
+        ],
+        "advantage": [
+            false,
+            false,
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender comes in with medium intensity and high speed and tackles the attacker on the leg. It is not clear whether he also plays the ball, but even if he did, it was not done fairly.",
+            "Yes, it is a foul. A late tackle for disputing the ball.",
+            "Yes, it is a foul, as the yellow-green player brings down the white player with a tackle, without playing the ball."
+        ],
+        "card_explanation": [
+            "A yellow card. The defender comes in with medium intensity and hits the defender with the studs on his foot. Although the defender also played the ball, it was not a fair play. The speed of the tackle shows a lack of consideration for the well-being of his opponent, and therefore this action should be considered reckless. The player should be punished",
+            "Yellow card. Late tackle in the dispute for the ball but he only touched his opponent's feet.",
+            "Yellow card, due to high intensity, lack of control over the tackle movement, increased risk of injury upon impact."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul.",
+            "No advantage.",
+            "No."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_35": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_35/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_35/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender tripped the attacker with this tackle."
+        ],
+        "card_explanation": [
+            "No card, as the defender only lightly made contact with the attacker in the battle for the ball with his tackle."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_41": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_41/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_41/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, all players are just going towards the ball to head it."
+        ],
+        "card_explanation": [
+            "No foul, all players are just heading towards the ball to head it."
+        ],
+        "advantage_explanation": [
+            "Although it was not a foul, the referee should interrupt the game as 2 players got into a scuffle. In case of head injuries, the referee should always stop the game immediately."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_45": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_45/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_45/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Yellow"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender arrives too late and hits the attacker with medium intensity on the shin."
+        ],
+        "card_explanation": [
+            "A yellow card, because the ball has already been played and the defender arrived too late, unnecessarily hitting the opponent's shin or ankle with medium intensity. Such a foul shows a lack of consideration for the well-being of the opponent, and therefore such an action should be considered reckless and punished with a yellow card."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_47": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_47/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_47/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, as the attacker legally shoved the defender away with shoulder to shoulder contact and arms held in."
+        ],
+        "card_explanation": [
+            "No foul, as the attacker legally pushed the defender away with shoulder to shoulder contact and arms tucked in."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_54": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_54/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_54/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Yellow"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender slid into the attacker's legs from behind with moderate intensity."
+        ],
+        "card_explanation": [
+            "The defender's tackle was done with moderate intensity as he attempted to play the ball. However, the speed of the tackle shows a lack of consideration for the well-being of his opponent, and as such, this action should be considered reckless. The player should be punished with a yellow card."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_55": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_55/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_55/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Yellow"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender had no intention of playing the ball and just wants to prevent the counter situations of the attacking team."
+        ],
+        "card_explanation": [
+            "A yellow card because the defender has no intention of playing the ball and is only blocking the attacker's path to prevent counterattacks."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_62": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_62/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_62/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Yellow"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender in the blue jersey falls without any contact being made. Such behavior is considered diving and deceiving the referee and should be penalized with an indirect free kick for the opposing team."
+        ],
+        "card_explanation": [
+            "Yes, the player should receive a yellow card for their dive."
+        ],
+        "advantage_explanation": [
+            "No, in the case of a foul, the referee should immediately stop the game and give a yellow card to the offender."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_65": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_65/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_65/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "It looks like the attacker simply twisted his ankle without any intervention from an opponent. Therefore, it's not a foul."
+        ],
+        "card_explanation": [
+            "It looks like the attacker just twisted his ankle without any intervention from an opponent. That's why it's not a foul."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_66": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_66/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_66/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul as the attacker placed his leg in front of the opponent without reason and the opponent had no other choice or opportunity but to run into the leg. The attacker simply wanted to earn a free kick."
+        ],
+        "card_explanation": [
+            "No foul, as the attacker without reason placed his leg in front of the opposing player, leaving him with no other choice or option but to run into the leg. The attacker simply wanted to earn a free kick."
+        ],
+        "advantage_explanation": [
+            "The referee should allow play to continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_78": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_78/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_78/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "There is no foul since the defender played the ball first and shot it against the attacker."
+        ],
+        "card_explanation": [
+            "There is no foul as the defender plays the ball first and shoots it against the attacker."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as there was no foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_90": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_90/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_90/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, the attacker goes into the aerial duel normally and may only touch the goalkeeper with little intensity. However, this light contact is not enough to warrant a free kick. The referee should let the play continue."
+        ],
+        "card_explanation": [
+            "No foul, the attacker goes into the aerial duel normally and may only lightly touch the goalkeeper. However, this light contact is not enough to warrant a free kick. The referee should let play continue here."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_91": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_91/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_91/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "There is no foul to be seen. There may be slight contact, but it is not enough to make someone fall."
+        ],
+        "card_explanation": [
+            "There is no foul to be seen. There may be light contact, but it is not enough to make one fall."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_95": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_95/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_95/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, as the attackers go into the duel normally. The goalkeeper should not be favored in aerial duels."
+        ],
+        "card_explanation": [
+            "No foul, as the attackers are going into the duel normally. The goalkeeper should not be favored in aerial duels."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_129": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_129/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_129/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul since the defender played the ball fairly."
+        ],
+        "card_explanation": [
+            "No foul as the defender played the ball fairly."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_154": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_154/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_154/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, the attacker goes into the aerial duel normally and the goalkeeper plays the ball and then jumps into the attacker. However, since the goalkeeper played the ball, everything was in accordance with the rules."
+        ],
+        "card_explanation": [
+            "No foul, the attacker goes into the aerial duel normally and the goalkeeper plays the ball and then jumps into the attacker. However, since the goalkeeper played the ball, everything was in accordance with the rules."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_156": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_156/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_156/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul. There may have been slight contact, but it is not enough to warrant a penalty kick. The referee should only award a penalty kick for clear fouls."
+        ],
+        "card_explanation": [
+            "No foul. There may be slight contact, but it is not enough to award a penalty here. The referee should only award a penalty for clear fouls."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_157": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_157/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_157/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul as both players go into the duel in accordance with the rules."
+        ],
+        "card_explanation": [
+            "No foul as both players are going into the duel in compliance with the rules."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_160": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_160/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_160/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, the attacker goes for a regular aerial duel and only lightly touches the defender with his arm because the defender did not engage in the aerial duel."
+        ],
+        "card_explanation": [
+            "No foul, the attacker goes into the aerial duel normally and only lightly touches the defender with his arm because the defender is not going into the aerial duel."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_165": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_165/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_165/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, even though the defender approaches with both legs in the air, he does not hit the attackers."
+        ],
+        "card_explanation": [
+            "No foul, even though the defender approaches with both legs in the air, he does not hit the attackers."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_173": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_173/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_173/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "There is no foul visible on the camera perspectives, therefore the referee should let the game continue."
+        ],
+        "card_explanation": [
+            "There is no foul visible in the camera angles, therefore the referee should let the game continue."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue as there is no foul to be seen."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_187": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_187/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_187/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul. There might be slight contact, but it is not enough to warrant a free kick here."
+        ],
+        "card_explanation": [
+            "No foul. There may be slight contact, but it is not enough to award a free kick here."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_204": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_204/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_204/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "So there is no foul to be seen in this camera perspective."
+        ],
+        "card_explanation": [
+            "So there is no foul to be seen in this camera perspective."
+        ],
+        "advantage_explanation": [
+            "So there is no foul to be seen in this camera perspective."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_233": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_233/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_233/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul as the attacker went into the duel in a completely normal way without pushing the goalkeeper with their hands."
+        ],
+        "card_explanation": [
+            "No foul since the attacker went into the duel normally without pushing the goalkeeper with his hands."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as there was no foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_238": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_238/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_238/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, the attacker takes another step and then just falls."
+        ],
+        "card_explanation": [
+            "No foul, the attacker runs another meter and then simply falls."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_244": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_244/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_244/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul, as it is a fair duel between the two players, since both of them had their arm down."
+        ],
+        "card_explanation": [
+            "No foul, as it is a fair duel between the two players, as both have their arms in."
+        ],
+        "advantage_explanation": [
+            "The referee should let play continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_251": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_251/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_251/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            false
+        ],
+        "card": [
+            "No card"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "No foul. There may be slight contact, but it is not enough to call a foul and award a penalty. The referee should only award a penalty for clear fouls."
+        ],
+        "card_explanation": [
+            "No foul. There may be slight contact, but it is not enough to call a foul and award a penalty. The referee should only call a penalty for clear fouls."
+        ],
+        "advantage_explanation": [
+            "The referee should let the game continue, as it was not a foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Test/action_262": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_262/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Test/action_262/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Red"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The attacker kicks the defender with medium intensity on the ankle and on the side of the shin."
+        ],
+        "card_explanation": [
+            "The attacker strikes the defender's ankle and lateral shin with medium intensity. With such a tackle, the player endangers the health of their opponent and should therefore be punished with a red card."
+        ],
+        "advantage_explanation": [
+            "No, the referee should immediately interrupt the game when smooth red cards are involved."
+        ],
+        "punishment_explanation": []
+    },
+    "Train/action_3": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_3/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_3/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Red"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender hits his opponent with his studs on the chest."
+        ],
+        "card_explanation": [
+            "A red card. The defender hits his opponent with the studs and with moderate intensity in the chest, which represents an extremely high risk of injury. Such an offense endangers the player's health."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Train/action_128": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_128/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_128/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Red"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender charges in with high intensity and speed, and hits his attacker with an open sole on the ankle."
+        ],
+        "card_explanation": [
+            "A red card. The defender comes in with high intensity and speed, sliding in and hitting his attacker with an open sole on the ankle. Such a foul is considered a serious foul play or an attack against the opponent and must be punished with a red card."
+        ],
+        "advantage_explanation": [
+            "No, as the fouled team is no longer in possession of the ball. Furthermore, the referee should only give advantage for red cards if it is a clear scoring opportunity, which was not the case here."
+        ],
+        "punishment_explanation": []
+    },
+    "Train/action_310": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_310/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_310/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true,
+            true
+        ],
+        "card": [
+            "Red",
+            "Red"
+        ],
+        "advantage": [
+            false,
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender's slide tackle hits the attacker's ankle with his studs.",
+            "Yes, the player committed a foul while attempting to play the ball at full speed, risking injury to the opponent."
+        ],
+        "card_explanation": [
+            "The defender's tackle was performed with moderate intensity as he attempted to play the ball. However, he still made contact with the opponent with moderate intensity using his studs on the ankle, causing the opponent to stumble. Such a foul is considered a serious foul or an attack against the opponent and should be punished with a red card.",
+            "I would give a red card because he hits his opponents with his studs on the foot. Dangerous play while taking a risk of the opponent in account."
+        ],
+        "advantage_explanation": [
+            "No, in the case of completely red cards, the referee should immediately stop the game.",
+            "No, the defender would have remained in possession of the ball."
+        ],
+        "punishment_explanation": []
+    },
+    "Train/action_578": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_578/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_578/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Red"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender pushes the opponent in the back and then falls on his legs from behind."
+        ],
+        "card_explanation": [
+            "A red card was given to the defender for preventing a clear goal opportunity."
+        ],
+        "advantage_explanation": [
+            "No, for solid red cards the referee should decide on a free kick."
+        ],
+        "punishment_explanation": []
+    },
+    "Train/action_583": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_583/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_583/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Red"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender hits the opponent with medium intensity with the studs on the back of the heel and on the calf."
+        ],
+        "card_explanation": [
+            "Yes, it is a foul. The defender hits the opposing player with moderate intensity using the studs on the back of the heel and the calf. Such a foul is considered as serious foul play and will be punished with a red card as it is seen as an attack on the opponent's health."
+        ],
+        "advantage_explanation": [
+            "No, the fouled team was no longer in possession of the ball after the foul."
+        ],
+        "punishment_explanation": []
+    },
+    "Train/action_772": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_772/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_772/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Red"
+        ],
+        "advantage": [
+            false
+        ],
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender wrapped his arms around the attacker from behind."
+        ],
+        "card_explanation": [
+            "A red card, as the defender prevented a clear goal opportunity. Although there is a penalty kick here, the defender should still receive a red card, as he did not commit the foul in the battle for the ball."
+        ],
+        "advantage_explanation": [
+            "No, because a penalty and a red card are better for the attacking team."
+        ],
+        "punishment_explanation": []
+    },
+    "Train/action_820": {
+        "video1": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_820/clip_0.mp4",
+        "video2": "https://varsfootball.s3.eu-west-3.amazonaws.com/Train/action_820/clip_1.mp4",
+        "league": "Promotion d'Honneur referee",
+        "number_of_games": "360",
+        "foul": [
+            true
+        ],
+        "card": [
+            "Red"
+        ],
+        "advantage": [
+            false
+        ], 
+        "punishment": [],
+        "foul_explanation": [
+            "Yes, it is a foul. The defender comes jumping forward with 2 outstretched feet and studs, with very high intensity, and hits the attacker on the foot."
+        ],
+        "card_explanation": [
+            "A red card. The attacker comes jumping with two extended feet and studs in front, with a very high intensity and hits the attacker's foot. He clearly saw his opponent in front of him and, by endangering with such a jump, endangered the health of the opponent. Such an offense must be punished with a field expulsion."
+        ],
+        "advantage_explanation": [
+            "No, because the ball was already out."
+        ],
+        "punishment_explanation": []
+    }
+}

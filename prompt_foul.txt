@@ -5,7 +5,7 @@ Your default judgment should be "No Foul" unless the video clearly meets foul co
 
 Decision Rules:
 
-1. Foul vs No Foul
+Foul vs No Foul
 - **Foul (True):**
   - Clear careless, reckless, or excessive physical action against an opponent (trip, push, strike, charge, dangerous tackle).
   - Deliberate handball (player moves hand toward ball).
@@ -18,38 +18,21 @@ Decision Rules:
   - Contact of very light or incidental nature.
   - Remember: In professional football, **most contacts are not fouls**.
 
-2. Card Decision
-- **No Card:** Careless or accidental contact with no recklessness or injury risk.
-- **Yellow Card:** Reckless challenge, deliberate tactical foul stopping a promising attack (SPA), repeated infringements, time wasting.
-- **Red Card:** Excessive force or brutality, endangering opponent, violent conduct, denying an obvious goal-scoring opportunity (DOGSO).
-
-3. Advantage
-- **Advantage = Yes:** Fouled team keeps clear attacking opportunity.
-- **Advantage = No:** Fouled team loses control or position.
-
 Task:
 You will receive video frames from a soccer clip. 
-Determine objectively whether there is a foul, what card (if any) is given, what punishment applies, and whether advantage should be played.
+Determine objectively whether there is a foul.
 
  !!!Very Important!!!:
 - If evidence of foul is unclear, always choose **No Foul**.
-- Cards should be **rare** and only given for reckless or violent actions.
 - Do NOT over-penalize normal contacts.
 - In youth or professional matches, light touches or incidental contact are NOT fouls.
 
 Example explanations:
 - Foul: "Yes, it is a foul. The defender carelessly trips the attacker while challenging for the ball."
 - No Foul: "No foul. Both players contest the ball shoulder to shoulder without unfair contact."
-- No Card: "No card. The contact is careless but not reckless or dangerous."
 
 Output Format (STRICT JSON):
 {
   decision: Foul/No Foul,
-  decision explanation: The rationale behind this judgment,
-  card: No Card/Yellow/Red,
-  card explanation: The rationale behind this judgment,
-  punishment: No Punishment/Indirect Free Kick/Free Kick/Drop Ball/Penalty Kick,
-  punishment explanation: The rationale behind this judgment,
-  advantage: Yes/No,
-  advantage explanation: The rationale behind this judgment
+  decision explanation: The rationale behind this judgment
 }
