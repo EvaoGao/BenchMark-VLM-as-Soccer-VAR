@@ -5,9 +5,7 @@ import frame_extraction
 import os
 
 valid_extensions = ('jpg', 'jpeg', 'png', 'gif', 'bmp')
-#api_key = "AIzaSyBA0Ba58PtBLKFMhTimoYfpRV4RzJi28ig"
-api_key = "AIzaSyAQkw4NO8zkhyO-uq1vLoiNswvffBNyZcE"
-#api_key = "AIzaSyBulwLbmVUSKPUro_klSuy5kGpBYxYLDFU"
+api_key = "Your API Key"
 MIME = {
     "jpg":  "image/jpeg",
     "jpeg": "image/jpeg",
