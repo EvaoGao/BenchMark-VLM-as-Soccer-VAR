@@ -6,8 +6,8 @@ import os
 
 valid_extensions = ('jpg', 'jpeg', 'png', 'gif', 'bmp')
 #api_key = "AIzaSyBA0Ba58PtBLKFMhTimoYfpRV4RzJi28ig"
-
-api_key = "AIzaSyBulwLbmVUSKPUro_klSuy5kGpBYxYLDFU"
+api_key = "AIzaSyAQkw4NO8zkhyO-uq1vLoiNswvffBNyZcE"
+#api_key = "AIzaSyBulwLbmVUSKPUro_klSuy5kGpBYxYLDFU"
 MIME = {
     "jpg":  "image/jpeg",
     "jpeg": "image/jpeg",
@@ -39,7 +39,7 @@ def load_parts(folder_dir: str):
 
 def gemini_call(URL1: str, URL2: str, prompt_path: str):
     #frame_extraction.extract_frames_from_video(URL1,"frames_live")
-    frame_extraction.extract_frames_from_video(URL2,"frames_replay")
+    frame_extraction.extract_frames_from_video(URL2,"frames_replay", 10)
     #frame_extraction.extract_frames_center(URL2,"frames_replay")
     #parts = load_parts("frames_live") + load_parts("frames_replay")
     parts = load_parts("frames_replay")
